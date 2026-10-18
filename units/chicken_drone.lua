@@ -11,7 +11,7 @@ return { chicken_drone = {
   canPatrol           = true,
   category            = [[LAND UNARMED]],
 
-   customParams        = {
+  customParams        = {
 	morphto_1 = "chickend",
 	morphtime_1 = 12,
 
