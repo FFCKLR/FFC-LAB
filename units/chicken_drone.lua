@@ -28,7 +28,6 @@ return { chicken_drone = {
 	morphtime_5 = 100,
   },
 
-
   energyMake          = 0,
   energyStorage       = 50,
   explodeAs           = [[SMALL_UNITEX]],
