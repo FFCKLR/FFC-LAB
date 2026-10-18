@@ -10,7 +10,12 @@ return { chicken_leaper = {
   canPatrol           = true,
   category            = [[LAND]],
 
-  customParams        = {
+ customParams        = {
+    canjump            = 1,
+    jump_range         = 600,
+    jump_speed         = 6,
+    jump_reload        = 2,
+    jump_from_midair   = 0,
     outline_x = 145,
     outline_y = 145,
     outline_yoff = 17.5,

@@ -11,15 +11,23 @@ return { chicken_drone = {
   canPatrol           = true,
   category            = [[LAND UNARMED]],
 
-  customParams        = {
+   customParams        = {
 	morphto_1 = "chickend",
-	morphtime_1 = 20,
-	morphcost_1 = 15,
+	morphtime_1 = 12,
 
 	morphto_2 = "chickenspire",
-	morphtime_2 = 90,
-	morphcost_2 = 600,
+	morphtime_2 = 350,
+
+	morphto_3 = "roost",
+	morphtime_3 = 34,
+
+	morphto_4 = "chicken_rafflesia",
+	morphtime_4 = 48,
+
+	morphto_5 = "chickenbroodqueen",
+	morphtime_5 = 100,
   },
+
 
   energyMake          = 0,
   energyStorage       = 50,
